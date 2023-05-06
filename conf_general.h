@@ -38,7 +38,7 @@
 //#define WS2811_TEST					1
 //#define CURR1_DOUBLE_SAMPLE			0
 //#define CURR2_DOUBLE_SAMPLE			0
-#define AS5047_USE_HW_SPI_PINS		1
+#define AS5047_USE_HW_SPI_PINS		1      //loop222.3
 
 // Disable hardware limits on configuration parameters
 //#define DISABLE_HW_LIMITS
@@ -63,7 +63,7 @@
 //#define HW_SOURCE "hw_49.c"
 //#define HW_HEADER "hw_49.h"
 
-#define HW_SOURCE "hw_410.c" // Also for 4.11 and 4.12
+#define HW_SOURCE "hw_410.c" // Also for 4.11 and 4.12   loop222.1
 #define HW_HEADER "hw_410.h" // Also for 4.11 and 4.12
 
 // Benjamins first HW60 PCB with PB5 and PB6 swapped
@@ -74,8 +74,8 @@
 //#define HW60_IS_MK4
 #define HW60_IS_MK5
 
-// #define HW_SOURCE "hw_60.c"
-// #define HW_HEADER "hw_60.h"
+//#define HW_SOURCE "hw_60.c"
+//#define HW_HEADER "hw_60.h"
 
 //#define HW_SOURCE "hw_r2.c"
 //#define HW_HEADER "hw_r2.h"
@@ -148,6 +148,7 @@
 //#define HW_SOURCE "hw_stormcore_100d.c"
 //#define HW_HEADER "hw_stormcore_100d.h"
 
+//#define HW_VER_IS_60D_PLUS
 //#define HW_SOURCE "hw_stormcore_60d.c"
 //#define HW_HEADER "hw_stormcore_60d.h"
 
